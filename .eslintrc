@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "prettier"
+  ],
+  "prettier/prettier": [
+    "error",
+    {},
+    {
+      "userPrettierrc": true
+    }
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "prefer-const": [
+      "error"
+    ],
+    "func-style": [
+      "warn",
+      "declaration",
+      {
+        "allowArrowFunctions": true
+      }
+    ],
+    "comma-dangle": [
+      2,
+      "always"
+    ],
+    "curly": [
+      1,
+      "all"
+    ],
+    "max-len": [
+      0,
+      120,
+      "error",
+      {
+        "ignoreUrls": true
+      }
+    ]
+  }
+}
